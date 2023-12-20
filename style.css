@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(24, 148, 206);
+}
+
+h1 {
+  color: black;
+  top: 5px;
+  text-align: center;
+  padding: 55px;
+  font-size: 55px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+nav.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  padding: 10px;
+  min-height: 50px;
+  margin: 0 auto;
+  width: 750px;
+  background-color: white;
+  border-style:solid;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 15px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #333;
+  padding: 10px 15px;
+  transition: transform 0.1s ease-in-out, 0.1s ease-in-out;
+  font-weight: normal;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
+nav a:not(:hover) {
+  transform: scale(1);
+}
+
+/* nav { */
+  /* min-height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 10; /* Maintain top position 
+  left: 10px;
+  right: 10px;
+  border-radius: 5px;
+ } */
+
+.section {
+  margin: 10px auto;
+  display: block;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
