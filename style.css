@@ -6,8 +6,15 @@ h1 {
   color: black;
   top: 5px;
   text-align: center;
-  padding: 55px;
-  font-size: 55px;
+  padding: 45px;
+  font-size: 60px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -45,19 +52,6 @@ nav a:hover {
 nav a:not(:hover) {
   transform: scale(1);
 }
-
-/* nav { */
-  /* min-height: 50px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 10; /* Maintain top position 
-  left: 10px;
-  right: 10px;
-  border-radius: 5px;
- } */
 
 .section {
   margin: 10px auto;
