@@ -8,7 +8,7 @@ h1 {
   text-align: center;
   padding-top: 10px;
   font-size: 54px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
@@ -117,4 +117,31 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 40%;
+  justify-items: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.wrapper {
+  /* display: flex; */
+  margin: auto;
+
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  justify-items: center;  /* Horizontally center items within their cells */
+  align-items: center;
 }
