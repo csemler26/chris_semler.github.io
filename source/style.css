@@ -143,3 +143,43 @@ img {vertical-align: middle;}
   justify-items: center;  /* Horizontally center items within their cells */
   align-items: center;
 }
+
+.contact-info {
+  padding: 25px;
+  margin: 0 auto;
+  width: 600px;
+  background-color: white;
+  border-style:solid;
+  border-width: 4px;
+  border-color: rgb(37, 37, 37);
+  border-radius: 30px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: Center;
+  padding: 8px;
+  width: 20%
+}
+
+th {
+  text-align: Center;
+  padding: 8px;
+}
+
+/* tr:nth-child(even) {
+  background-color: blue;
+} */
